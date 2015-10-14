@@ -1599,9 +1599,9 @@ rule.removeAll();
 rule.nodes.length //=> 0
 ```
 
-## `Root` node
+## `Root` узел
 
-Represents a CSS file and contains all its parsed nodes.
+Представляет CSS файл и все его узлы.
 
 ```js
 var root = postcss.parse('a{color:black} b{z-index:2}');
